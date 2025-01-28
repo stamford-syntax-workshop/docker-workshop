@@ -12,7 +12,7 @@ docker run -it java-app
 
 ## To build docker image for docker hub with multi-platforms
 ```bash
-docker build -t [username]/java --platform linux/amd64,linux/arm64 .java-app
+docker build -t [username]/java-app --platform linux/amd64,linux/arm64 .
 ```
 
 ## To push built image into docker hub
