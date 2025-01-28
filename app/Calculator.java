@@ -7,11 +7,11 @@ public class Calculator {
 
         try {
             // Prompt for first number
-            System.out.println("Enter your first number: ");
+            System.out.print("Enter your first number: ");
             int num1 = sc.nextInt();
 
             // Prompt for second number
-            System.out.println("Enter your second number: ");
+            System.out.print("Enter your second number: ");
             int num2 = sc.nextInt();
 
             // Prompt for operation
