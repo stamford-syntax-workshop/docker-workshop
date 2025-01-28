@@ -15,11 +15,12 @@ public class Calculator {
             int num2 = sc.nextInt();
 
             // Prompt for operation
-            System.out.println("Choose the operation (1 - 4):");
+            System.out.println("");
             System.out.println("1. Addition");
             System.out.println("2. Subtraction");
             System.out.println("3. Multiplication");
             System.out.println("4. Division");
+            System.out.print("Choose the operation (1 - 4):");
             int operation = sc.nextInt();
 
             int result = 0;
