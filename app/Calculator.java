@@ -5,6 +5,15 @@ public class Calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("                                                 ");
+        System.out.println("  _____      _            _       _             ");
+        System.out.println(" / ____|    | |          | |     | |            ");
+        System.out.println("| |     __ _| | ___ _   _| | __ _| |_ ___  _ __ ");
+        System.out.println("| |    / _` | |/ __| | | | |/ _` | __/ _ \\| '__|");
+        System.out.println("| |___| (_| | | (__| |_| | | (_| | || (_) | |   ");
+        System.out.println(" \\_____\\__,_|_|\\___|\\__,_|_|\\__,_|\\__\\___/|_|");
+        System.out.println("                                                 ");
+
         try {
             // Prompt for first number
             System.out.print("Enter your first number: ");
